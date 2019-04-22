@@ -15,12 +15,12 @@ spec:
       - path: /appone
         backend:
           serviceName: appone-service
-          servicePort: 8080
+          servicePort: 8081
 
       - path: /apptwo
         backend:
           serviceName: apptwo-service
-          servicePort: 8081
+          servicePort: 8082
 
       - path: /appthree
         backend:
